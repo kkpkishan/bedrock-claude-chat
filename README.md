@@ -147,7 +147,7 @@ Super-easy Deployment uses [AWS CodeBuild](https://aws.amazon.com/codebuild/) to
 - Clone this repository
 
 ```
-git clone https://github.com/aws-samples/bedrock-claude-chat
+git clone https://github.com/kkpkishan/bedrock-claude-chat.git
 ```
 
 - Install npm packages
