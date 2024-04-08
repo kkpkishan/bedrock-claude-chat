@@ -4,7 +4,7 @@
 const translation = {
   translation: {
     app: {
-      name: 'Electromech Chat',
+      name: 'Cloudkida Chat',
       inputMessage: '入力してください',
       starredBots: 'スター付きのボット',
       recentlyUsedBots: '最近使用したボット',

@@ -1,7 +1,7 @@
 const translation = {
   translation: {
     app: {
-      name: 'Electromech Chat',
+      name: 'Cloudkida Chat',
       inputMessage: 'Nachricht senden',
       starredBots: 'Favorisierte Bots',
       recentlyUsedBots: 'Zuletzt genutzte Bots',
@@ -10,7 +10,7 @@ const translation = {
     },
     bot: {
       label: {
-        myBots: 'EMC Bots',
+        myBots: 'Cloudkida Bots',
         recentlyUsedBots: 'Kürzlich genutzte Shared Bots',
         knowledge: 'Wissensbasis',
         url: 'URL',
