@@ -76,6 +76,7 @@ const vpcConfig = {
   publicSubnetIds: [publicSubnetId0, publicSubnetId1],
   privateSubnetIds: [privateSubnetId0, privateSubnetId1],
   isolatedSubnetIds: [],
+  natGateways: 1
 };
 
 const conversationTableName = cdk.Fn.importValue(
