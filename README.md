@@ -39,6 +39,7 @@ Analyze usage for each user / bot on administrator dashboard. [detail](./docs/AD
 - Français 💬
 - Deutsch 💬
 - Español 💬
+- Italian 💬
 
 ## 🚀 Super-easy Deployment
 
@@ -55,7 +56,7 @@ Analyze usage for each user / bot on administrator dashboard. [detail](./docs/AD
 - Run deployment via following commands
 
 ```sh
-git clone https://github.com/aws-samples/bedrock-claude-chat.git
+git clone https://github.com/kkpkishan/bedrock-claude-chat.git
 cd bedrock-claude-chat
 chmod +x bin.sh
 ./bin.sh
@@ -148,7 +149,7 @@ Super-easy Deployment uses [AWS CodeBuild](https://aws.amazon.com/codebuild/) to
 - Clone this repository
 
 ```
-git clone https://github.com/aws-samples/bedrock-claude-chat
+git clone https://github.com/kkpkishan/bedrock-claude-chat.git
 ```
 
 - Install npm packages
@@ -210,13 +211,12 @@ Update `enableMistral` to `true` in [cdk.json](./cdk/cdk.json), and run `cdk dep
 > [!Important]
 > This project focus on Anthropic Claude models, the Mistral models are limited supported. For example, prompt examples are based on Claude models. This is a Mistral-only option, once you toggled to enable Mistral models, you can only use Mistral models for all the chat features, NOT both Claude and Mistral models.
 
-### Configure text generation
+### Configure default text generation
 
-Edit [config.py](./backend/app/config.py) and run `cdk deploy`.
+Users can adjust the [text generation parameters](https://docs.anthropic.com/claude/reference/complete_post) from the custom bot creation screen. If the bot is not used, the default parameters set in [config.py](./backend/app/config.py) will be used.
 
 ```py
-# See: https://docs.anthropic.com/claude/reference/complete_post
-GENERATION_CONFIG = {
+DEFAULT_GENERATION_CONFIG = {
     "max_tokens": 2000,
     "top_k": 250,
     "top_p": 0.999,

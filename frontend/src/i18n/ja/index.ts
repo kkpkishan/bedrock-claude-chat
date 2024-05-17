@@ -9,7 +9,8 @@ const translation = {
       },
     },
     app: {
-      name: 'AI Chat',
+      name: 'Bedrock Claude Chat',
+      nameWithoutClaude: 'Bedrock Chat',
       inputMessage: '入力してください',
       starredBots: 'スター付きのボット',
       recentlyUsedBots: '最近使用したボット',

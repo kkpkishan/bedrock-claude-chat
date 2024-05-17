@@ -181,7 +181,7 @@ const BotApiSettingsPage: React.FC = () => {
         setErrorMessage(`origins${idx}`, t('input.validationError.required'));
         hasError = true;
       } else if (
-        !/^(https?:\/\/)((\*\.)?([\w-]+\.)*[\w-]+)(:\d+)?$/.test(origin)
+        !/^(https?:\/\/)?([a-zA-Z0-9\\-\\.*]+)(:(\d+))?$/.test(origin)
       ) {
         setErrorMessage(
           `origins${idx}`,
