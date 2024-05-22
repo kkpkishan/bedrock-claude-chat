@@ -57,7 +57,7 @@
     "@aws-cdk/core:includePrefixInUniqueNameGeneration": true,
     "@aws-cdk/aws-opensearchservice:enableOpensearchMultiAzWithStandby": true,
     "enableMistral": false,
-    "bedrockRegion": "us-west-2",
+    "bedrockRegion": "us-east-1",
     "allowedIpV4AddressRanges": [
       "0.0.0.0/1",
       "128.0.0.0/1"
@@ -78,20 +78,10 @@
       "8000:0000:0000:0000:0000:0000:0000:0000/1"
     ],
     "rdbSchedules": {
-      "stop": {
-        "minute": "50",
-        "hour": "10",
-        "day": "*",
-        "month": "*",
-        "year": "*"
-      },
-      "start": {
-        "minute": "40",
-        "hour": "2",
-        "day": "*",
-        "month": "*",
-        "year": "*"
-      }
-    }
+      "stop": {},
+      "start": {}
+    },
+    "embeddingContainerVcpu": 2048,
+    "embeddingContainerMemory": 4096
   }
 }

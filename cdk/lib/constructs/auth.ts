@@ -35,7 +35,7 @@ export class Auth extends Construct {
         minLength: 8,
       },
       // Disable if identity providers are configured
-      selfSignUpEnabled: false,
+      selfSignUpEnabled: !props.idp.isExist(),
       signInAliases: {
         username: false,
         email: true,
