@@ -27,7 +27,7 @@ const useScroll = () => {
     scrollToTop: () => {
       document.getElementById('main')?.scrollTo({
         top: 0,
-        behavior: 'smooth',
+        behavior: 'instant',
       });
     },
     scrollToBottom: () => {
