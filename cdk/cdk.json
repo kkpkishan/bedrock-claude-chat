@@ -52,7 +52,7 @@
     "@aws-cdk/core:includePrefixInUniqueNameGeneration": true,
     "@aws-cdk/aws-opensearchservice:enableOpensearchMultiAzWithStandby": true,
     "enableMistral": false,
-    "bedrockRegion": "us-east-1",
+    "bedrockRegion": "ap-south-1",
     "allowedIpV4AddressRanges": ["0.0.0.0/1", "128.0.0.0/1"],
     "allowedIpV6AddressRanges": [
       "0000:0000:0000:0000:0000:0000:0000:0000/1",
@@ -68,7 +68,7 @@
       "0000:0000:0000:0000:0000:0000:0000:0000/1",
       "8000:0000:0000:0000:0000:0000:0000:0000/1"
     ],
-    "enableRagReplicas": true,
+    "enableRagReplicas": false,
     "enableBedrockCrossRegionInference": true,
     "enableLambdaSnapStart": true,
     "alternateDomainName": "",

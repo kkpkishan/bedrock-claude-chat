@@ -11,7 +11,7 @@ from botocore.exceptions import ClientError
 logger = logging.getLogger(__name__)
 
 REGION = os.environ.get("REGION", "us-east-1")
-BEDROCK_REGION = os.environ.get("BEDROCK_REGION", "us-east-1")
+BEDROCK_REGION = os.environ.get("BEDROCK_REGION", "ap-south-1")
 
 logger.debug(f"REGION: {REGION}")
 logger.debug(f"BEDROCK_REGION: {BEDROCK_REGION}")
