@@ -4,7 +4,7 @@ Ciri-ciri pentadbir adalah alat yang sangat penting kerana ia memberikan pandang
 
 ## Gelung Maklum Balas
 
-Output daripada LLM mungkin tidak sentiasa memenuhi jangkaan pengguna. Kadangkala ia gagal memuaskan keperluan pengguna. Untuk mengintegrasikan LLM dengan berkesan ke dalam operasi perniagaan dan kehidupan harian, melaksanakan gelung maklum balas adalah penting. Bedrock Claude Chat dilengkapi dengan fitur maklum balas yang direka untuk membolehkan pengguna menganalisis mengapa ketidakpuasan berlaku. Berdasarkan keputusan analisis, pengguna boleh melaraskan arahan, sumber data RAG, dan parameter mengikut kesesuaian.
+Output daripada LLM mungkin tidak sentiasa memenuhi jangkaan pengguna. Kadangkala ia gagal memuaskan keperluan pengguna. Untuk mengintegrasikan LLM dengan berkesan ke dalam operasi perniagaan dan kehidupan harian, melaksanakan gelung maklum balas adalah penting. EMC Claude Chat dilengkapi dengan fitur maklum balas yang direka untuk membolehkan pengguna menganalisis mengapa ketidakpuasan berlaku. Berdasarkan keputusan analisis, pengguna boleh melaraskan arahan, sumber data RAG, dan parameter mengikut kesesuaian.
 
 ![](./imgs/feedback_loop.png)
 

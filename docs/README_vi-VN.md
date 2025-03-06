@@ -69,7 +69,7 @@ Bằng cách sử dụng [chức năng Tác Nhân](./AGENT_vi-VN.md), chatbot c�
 - Chạy triển khai bằng các lệnh sau. Nếu bạn muốn chỉ định phiên bản để triển khai hoặc cần áp dụng các chính sách bảo mật, vui lòng chỉ định các tham số phù hợp từ [Các Tham Số Tùy Chọn](#các-tham-số-tùy-chọn).
 
 ```sh
-git clone https://github.com/aws-samples/bedrock-claude-chat.git
+git clone https://github.com/kkpkishan/bedrock-claude-chat.git
 cd bedrock-claude-chat
 chmod +x bin.sh
 ./bin.sh
@@ -88,8 +88,8 @@ Bạn có thể chỉ định các tham số sau trong quá trình triển khai 
 - **--disable-ipv6**: Vô hiệu hóa kết nối qua IPv6. (mặc định: được bật)
 - **--allowed-signup-email-domains**: Danh sách các miền email được phép đăng ký, phân tách bằng dấu phẩy. (mặc định: không hạn chế miền)
 - **--bedrock-region**: Xác định khu vực có Bedrock. (mặc định: us-east-1)
-- **--repo-url**: Kho lưu trữ tùy chỉnh của Bedrock Claude Chat để triển khai, nếu đã fork hoặc điều khiển nguồn tùy chỉnh. (mặc định: https://github.com/aws-samples/bedrock-claude-chat.git)
-- **--version**: Phiên bản của Bedrock Claude Chat để triển khai. (mặc định: phiên bản mới nhất trong quá trình phát triển)
+- **--repo-url**: Kho lưu trữ tùy chỉnh của EMC Claude Chat để triển khai, nếu đã fork hoặc điều khiển nguồn tùy chỉnh. (mặc định: https://github.com/kkpkishan/bedrock-claude-chat.git)
+- **--version**: Phiên bản của EMC Claude Chat để triển khai. (mặc định: phiên bản mới nhất trong quá trình phát triển)
 - **--cdk-json-override**: Bạn có thể ghi đè bất kỳ giá trị ngữ cảnh CDK nào trong quá trình triển khai bằng cách sử dụng khối JSON ghi đè. Điều này cho phép bạn sửa đổi cấu hình mà không cần chỉnh sửa trực tiếp tệp cdk.json.
 
 Ví dụ sử dụng:
@@ -140,7 +140,7 @@ Màn hình đăng ký sẽ xuất hiện như hình trên, nơi bạn có thể 
 > Nếu không đặt tham số tùy chọn, phương pháp triển khai này cho phép bất kỳ ai biết URL đều có thể đăng ký. Đối với việc sử dụng trong sản xuất, rất khuyến nghị thêm các hạn chế địa chỉ IP và vô hiệu hóa đăng ký tự động để giảm thiểu rủi ro bảo mật (bạn có thể xác định allowed-signup-email-domains để hạn chế người dùng sao cho chỉ các địa chỉ email từ miền công ty của bạn mới được đăng ký). Sử dụng cả ipv4-ranges và ipv6-ranges để hạn chế địa chỉ IP, và vô hiệu hóa đăng ký tự động bằng cách sử dụng disable-self-register khi thực thi ./bin.
 
 > [!MẸO]
-> Nếu `Frontend URL` không xuất hiện hoặc Bedrock Claude Chat không hoạt động đúng, có thể là vấn đề với phiên bản mới nhất. Trong trường hợp này, vui lòng thêm `--version "v1.2.6"` vào các tham số và thử triển khai lại.
+> Nếu `Frontend URL` không xuất hiện hoặc EMC Claude Chat không hoạt động đúng, có thể là vấn đề với phiên bản mới nhất. Trong trường hợp này, vui lòng thêm `--version "v1.2.6"` vào các tham số và thử triển khai lại.
 
 ## Kiến trúc
 
@@ -365,7 +365,7 @@ Vui lòng cũng xem xét các hướng dẫn sau trước khi đóng góp:
 
 ## Những người đóng góp
 
-[![những người đóng góp bedrock claude chat](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
+[![những người đóng góp EMC Claude Chat](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
 
 ## Giấy phép
 

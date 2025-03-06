@@ -1,6 +1,6 @@
 # Guía de Migración de Base de Datos
 
-Esta guía describe los pasos para migrar datos al realizar una actualización de Bedrock Claude Chat que incluye el reemplazo de un clúster de Aurora. El siguiente procedimiento garantiza una transición fluida minimizando el tiempo de inactividad y la pérdida de datos.
+Esta guía describe los pasos para migrar datos al realizar una actualización de EMC Claude Chat que incluye el reemplazo de un clúster de Aurora. El siguiente procedimiento garantiza una transición fluida minimizando el tiempo de inactividad y la pérdida de datos.
 
 ## Descripción general
 

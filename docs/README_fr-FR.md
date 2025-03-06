@@ -69,7 +69,7 @@ En utilisant la [fonctionnalité Agent](./AGENT_fr-FR.md), votre chatbot peut au
 - Effectuez le déploiement via les commandes suivantes. Si vous voulez spécifier la version à déployer ou appliquer des politiques de sécurité, veuillez spécifier les paramètres appropriés à partir des [Paramètres optionnels](#paramètres-optionnels).
 
 ```sh
-git clone https://github.com/aws-samples/bedrock-claude-chat.git
+git clone https://github.com/kkpkishan/bedrock-claude-chat.git
 cd bedrock-claude-chat
 chmod +x bin.sh
 ./bin.sh
@@ -88,8 +88,8 @@ Vous pouvez spécifier les paramètres suivants lors du déploiement pour améli
 - **--disable-ipv6** : Désactiver les connexions sur IPv6. (par défaut : activé)
 - **--allowed-signup-email-domains** : Liste séparée par des virgules des domaines de messagerie autorisés pour l'inscription. (par défaut : aucune restriction de domaine)
 - **--bedrock-region** : Définir la région où Bedrock est disponible. (par défaut : us-east-1)
-- **--repo-url** : Le dépôt personnalisé de Bedrock Claude Chat à déployer, s'il est forké ou si le contrôle source est personnalisé. (par défaut : https://github.com/aws-samples/bedrock-claude-chat.git)
-- **--version** : La version de Bedrock Claude Chat à déployer. (par défaut : dernière version en développement)
+- **--repo-url** : Le dépôt personnalisé de EMC Claude Chat à déployer, s'il est forké ou si le contrôle source est personnalisé. (par défaut : https://github.com/kkpkishan/bedrock-claude-chat.git)
+- **--version** : La version de EMC Claude Chat à déployer. (par défaut : dernière version en développement)
 - **--cdk-json-override** : Vous pouvez remplacer toutes les valeurs de contexte CDK pendant le déploiement à l'aide du bloc JSON de remplacement. Cela vous permet de modifier la configuration sans modifier directement le fichier cdk.json.
 
 Exemple d'utilisation :
@@ -140,7 +140,7 @@ L'écran d'inscription apparaîtra comme indiqué ci-dessus, où vous pourrez en
 > Sans définir le paramètre optionnel, cette méthode de déploiement permet à quiconque connaît l'URL de s'inscrire. Pour une utilisation en production, il est fortement recommandé d'ajouter des restrictions d'adresse IP et de désactiver l'auto-inscription pour atténuer les risques de sécurité (vous pouvez définir allowed-signup-email-domains pour restreindre les utilisateurs afin que seules les adresses email de votre domaine d'entreprise puissent s'inscrire). Utilisez à la fois ipv4-ranges et ipv6-ranges pour les restrictions d'adresse IP, et désactivez l'auto-inscription en utilisant disable-self-register lors de l'exécution de ./bin.
 
 > [!TIP]
-> Si l'`URL Frontend` n'apparaît pas ou si Bedrock Claude Chat ne fonctionne pas correctement, il peut s'agir d'un problème avec la dernière version. Dans ce cas, veuillez ajouter `--version "v1.2.6"` aux paramètres et réessayer le déploiement.
+> Si l'`URL Frontend` n'apparaît pas ou si EMC Claude Chat ne fonctionne pas correctement, il peut s'agir d'un problème avec la dernière version. Dans ce cas, veuillez ajouter `--version "v1.2.6"` aux paramètres et réessayer le déploiement.
 
 ## Architecture
 
@@ -367,7 +367,7 @@ Veuillez également consulter les directives suivantes avant de contribuer :
 
 ## Contributeurs
 
-[![contributeurs de bedrock claude chat](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
+[![contributeurs de EMC Claude Chat](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
 
 ## Licence
 

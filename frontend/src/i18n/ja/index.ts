@@ -9,8 +9,8 @@ const translation = {
       },
     },
     app: {
-      name: 'Bedrock Claude Chat',
-      nameWithoutClaude: 'Bedrock Chat',
+      name: 'EMC Claude Chat',
+      nameWithoutClaude: 'EMC  Chat',
       inputMessage: 'お手伝いできることはありますか？',
       starredBots: 'スター付きのボット',
       recentlyUsedBots: '最近使用したボット',

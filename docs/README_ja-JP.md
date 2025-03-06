@@ -69,7 +69,7 @@
 - 以下のコマンドでデプロイを実行します。特定のバージョンをデプロイしたい場合や、セキュリティポリシーを適用する必要がある場合は、[オプションパラメータ](#オプションパラメータ)から適切なパラメータを指定してください。
 
 ```sh
-git clone https://github.com/aws-samples/bedrock-claude-chat.git
+git clone https://github.com/kkpkishan/bedrock-claude-chat.git
 cd bedrock-claude-chat
 chmod +x bin.sh
 ./bin.sh
@@ -88,8 +88,8 @@ chmod +x bin.sh
 - **--disable-ipv6**: IPv6経由の接続を無効にします。（デフォルト：有効）
 - **--allowed-signup-email-domains**: サインアップに許可されたメールドメインのカンマ区切りリスト。（デフォルト：ドメイン制限なし）
 - **--bedrock-region**: Bedrockが利用可能なリージョンを定義します。（デフォルト：us-east-1）
-- **--repo-url**: フォークまたはカスタムソース管理の場合、デプロイするBedrock Claude Chatのカスタムリポジトリ。（デフォルト：https://github.com/aws-samples/bedrock-claude-chat.git）
-- **--version**: デプロイするBedrock Claude Chatのバージョン。（デフォルト：開発中の最新バージョン）
+- **--repo-url**: フォークまたはカスタムソース管理の場合、デプロイするEMC Claude Chatのカスタムリポジトリ。（デフォルト：https://github.com/kkpkishan/bedrock-claude-chat.git）
+- **--version**: デプロイするEMC Claude Chatのバージョン。（デフォルト：開発中の最新バージョン）
 - **--cdk-json-override**: デプロイ時にCDKコンテキスト値を上書きできます。これにより、cdk.jsonファイルを直接編集せずに設定を変更できます。
 
 使用例：
@@ -140,7 +140,7 @@ chmod +x bin.sh
 > オプションパラメータを設定しない場合、URLを知っている誰もがサインアップできます。本番環境では、セキュリティリスクを軽減するために、IPアドレス制限と自己サインアップの無効化を強くお勧めします（allowed-signup-email-domainsを定義して、会社のドメインのメールアドレスのみがサインアップできるように制限できます）。./binを実行する際は、ipv4-rangesとipv6-rangesでIPアドレス制限を設定し、disable-self-registerを使用して自己サインアップを無効にしてください。
 
 > [!TIP]
-> `フロントエンドURL`が表示されないか、Bedrock Claude Chatが正常に動作しない場合、最新バージョンに問題がある可能性があります。その場合は、`--version "v1.2.6"`をパラメータに追加してデプロイを再試行してください。
+> `フロントエンドURL`が表示されないか、EMC Claude Chatが正常に動作しない場合、最新バージョンに問題がある可能性があります。その場合は、`--version "v1.2.6"`をパラメータに追加してデプロイを再試行してください。
 
 ## アーキテクチャ
 
@@ -300,7 +300,7 @@ CLIとCDKを使用している場合は、`npx cdk destroy`を実行してくだ
 
 ## コントリビューター
 
-[![bedrock claude chat コントリビューター](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
+[![EMC Claude Chat コントリビューター](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
 
 ## ライセンス
 

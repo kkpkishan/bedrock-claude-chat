@@ -1,6 +1,6 @@
 # Database Migrasjonsveiledning
 
-Denne veiledningen beskriver trinnene for å migrere data ved oppdatering av Bedrock Claude Chat som inneholder en utskifting av Aurora-klyngen. Følgende prosedyre sikrer en smidig overgang samtidig som nedetid og datatap minimeres.
+Denne veiledningen beskriver trinnene for å migrere data ved oppdatering av EMC Claude Chat som inneholder en utskifting av Aurora-klyngen. Følgende prosedyre sikrer en smidig overgang samtidig som nedetid og datatap minimeres.
 
 ## Oversikt
 

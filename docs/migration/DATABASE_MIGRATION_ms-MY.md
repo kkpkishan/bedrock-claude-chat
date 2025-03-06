@@ -1,6 +1,6 @@
 # Panduan Migrasi Pangkalan Data
 
-Panduan ini menggariskan langkah-langkah untuk memindahkan data semasa mengemas kini Bedrock Claude Chat yang mengandungi penggantian kluster Aurora. Prosedur berikut memastikan peralihan yang lancar sambil meminimumkan masa henti dan kehilangan data.
+Panduan ini menggariskan langkah-langkah untuk memindahkan data semasa mengemas kini EMC Claude Chat yang mengandungi penggantian kluster Aurora. Prosedur berikut memastikan peralihan yang lancar sambil meminimumkan masa henti dan kehilangan data.
 
 ## Gambaran Keseluruhan
 

@@ -1,4 +1,4 @@
-# Bedrock Claude Chat (Nova)
+# EMC Claude Chat (Nova)
 
 ![](https://img.shields.io/github/v/release/aws-samples/bedrock-claude-chat?style=flat-square)
 ![](https://img.shields.io/github/license/aws-samples/bedrock-claude-chat?style=flat-square)
@@ -69,7 +69,7 @@ Ved å bruke [Agent-funksjonaliteten](./AGENT_nb-NO.md) kan chatboten automatisk
 - Kjør distribusjon via følgende kommandoer. Hvis du vil spesifisere versjonen som skal distribueres eller trenger å anvende sikkerhetspolicyer, kan du angi de aktuelle parameterne fra [Valgfrie parametere](#valgfrie-parametere).
 
 ```sh
-git clone https://github.com/aws-samples/bedrock-claude-chat.git
+git clone https://github.com/kkpkishan/bedrock-claude-chat.git
 cd bedrock-claude-chat
 chmod +x bin.sh
 ./bin.sh
@@ -88,8 +88,8 @@ Du kan spesifisere følgende parametere under distribusjon for å forbedre sikke
 - **--disable-ipv6**: Deaktiver tilkoblinger over IPv6. (standard: aktivert)
 - **--allowed-signup-email-domains**: Kommaseparert liste over tillatte e-postdomener for påmelding. (standard: ingen domenerestriksjoner)
 - **--bedrock-region**: Definer regionen der Bedrock er tilgjengelig. (standard: us-east-1)
-- **--repo-url**: Den egendefinerte repositoryen til Bedrock Claude Chat som skal distribueres, hvis den er forket eller har egendefinert kildekontroll. (standard: https://github.com/aws-samples/bedrock-claude-chat.git)
-- **--version**: Versjonen av Bedrock Claude Chat som skal distribueres. (standard: siste versjon under utvikling)
+- **--repo-url**: Den egendefinerte repositoryen til EMC Claude Chat som skal distribueres, hvis den er forket eller har egendefinert kildekontroll. (standard: https://github.com/kkpkishan/bedrock-claude-chat.git)
+- **--version**: Versjonen av EMC Claude Chat som skal distribueres. (standard: siste versjon under utvikling)
 - **--cdk-json-override**: Du kan overstyre alle CDK-kontekstverdier under distribusjon ved å bruke overstyrings-JSON-blokken. Dette lar deg endre konfigurasjonen uten å redigere cdk.json-filen direkte.
 
 Eksempel på bruk:
@@ -140,7 +140,7 @@ Påmeldingsskjermen vil vises som vist ovenfor, hvor du kan registrere e-posten 
 > Uten å sette den valgfrie parameteren tillater denne distribusjonsmåten at hvem som helst som kjenner URL-en kan registrere seg. For produksjonsbruk anbefales det sterkt å legge til IP-adressebegrensninger og deaktivere selvregistrering for å redusere sikkerhetsrisikoer (du kan definere allowed-signup-email-domains for å begrense brukere slik at kun e-postadresser fra selskapets domene kan registrere seg). Bruk både ipv4-ranges og ipv6-ranges for IP-adressebegrensninger, og deaktiver selvregistrering ved å bruke disable-self-register når du kjører ./bin.
 
 > [!TIPS]
-> Hvis `Frontend URL` ikke vises eller Bedrock Claude Chat ikke fungerer riktig, kan det være et problem med den nyeste versjonen. I så fall kan du legge til `--version "v1.2.6"` til parameterne og prøve distribusjon på nytt.
+> Hvis `Frontend URL` ikke vises eller EMC Claude Chat ikke fungerer riktig, kan det være et problem med den nyeste versjonen. I så fall kan du legge til `--version "v1.2.6"` til parameterne og prøve distribusjon på nytt.
 
 ## Arkitektur
 
@@ -365,7 +365,7 @@ Ta også en titt på følgende retningslinjer før du bidrar:
 
 ## Bidragsytere
 
-[![bedrock claude chat bidragsytere](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
+[![EMC Claude Chat bidragsytere](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
 
 ## Lisens
 

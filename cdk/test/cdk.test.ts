@@ -12,7 +12,7 @@ import { BedrockRegionResourcesStack } from "../lib/bedrock-region-resources";
 import { Analyzer } from "@cdklabs/generative-ai-cdk-constructs/lib/cdk-lib/opensearch-vectorindex";
 import { Match } from "aws-cdk-lib/assertions";
 
-describe("Bedrock Chat Stack Test", () => {
+describe("EMC  Chat Stack Test", () => {
   test("Identity Provider Generation", () => {
     const app = new cdk.App();
 

@@ -4,7 +4,7 @@ Las características del administrador son una herramienta vital ya que proporci
 
 ## Bucle de retroalimentación
 
-La salida del LLM puede no cumplir siempre con las expectativas del usuario. A veces no logra satisfacer sus necesidades. Para "integrar" efectivamente los LLM en las operaciones empresariales y la vida diaria, implementar un bucle de retroalimentación es esencial. Bedrock Claude Chat está equipado con una función de retroalimentación diseñada para permitir a los usuarios analizar por qué surgió la insatisfacción. Basándose en los resultados del análisis, los usuarios pueden ajustar los indicadores, las fuentes de datos RAG y los parámetros en consecuencia.
+La salida del LLM puede no cumplir siempre con las expectativas del usuario. A veces no logra satisfacer sus necesidades. Para "integrar" efectivamente los LLM en las operaciones empresariales y la vida diaria, implementar un bucle de retroalimentación es esencial. EMC Claude Chat está equipado con una función de retroalimentación diseñada para permitir a los usuarios analizar por qué surgió la insatisfacción. Basándose en los resultados del análisis, los usuarios pueden ajustar los indicadores, las fuentes de datos RAG y los parámetros en consecuencia.
 
 ![](./imgs/feedback_loop.png)
 

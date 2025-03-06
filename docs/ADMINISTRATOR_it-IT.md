@@ -4,7 +4,7 @@ Le funzionalità di amministrazione sono uno strumento essenziale poiché fornis
 
 ## Loop di feedback
 
-L'output di un LLM potrebbe non soddisfare sempre le aspettative dell'utente. A volte non riesce a soddisfare le sue esigenze. Per "integrare" efficacemente gli LLM nelle operazioni aziendali e nella vita quotidiana, implementare un loop di feedback è essenziale. Bedrock Claude Chat è dotato di una funzione di feedback progettata per consentire agli utenti di analizzare le ragioni dell'insoddisfazione. Sulla base dei risultati dell'analisi, gli utenti possono regolare di conseguenza i prompt, le fonti di dati RAG e i parametri.
+L'output di un LLM potrebbe non soddisfare sempre le aspettative dell'utente. A volte non riesce a soddisfare le sue esigenze. Per "integrare" efficacemente gli LLM nelle operazioni aziendali e nella vita quotidiana, implementare un loop di feedback è essenziale. EMC Claude Chat è dotato di una funzione di feedback progettata per consentire agli utenti di analizzare le ragioni dell'insoddisfazione. Sulla base dei risultati dell'analisi, gli utenti possono regolare di conseguenza i prompt, le fonti di dati RAG e i parametri.
 
 ![](./imgs/feedback_loop.png)
 

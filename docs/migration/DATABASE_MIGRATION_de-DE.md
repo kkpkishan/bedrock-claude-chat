@@ -1,6 +1,6 @@
 # Datenbank-Migrationsleitfaden
 
-Dieser Leitfaden beschreibt die Schritte zur Datenmigration bei der Aktualisierung von Bedrock Claude Chat, die einen Austausch des Aurora-Clusters umfasst. Das folgende Verfahren gewährleistet einen reibungslosen Übergang bei minimaler Ausfallzeit und Datenverlust.
+Dieser Leitfaden beschreibt die Schritte zur Datenmigration bei der Aktualisierung von EMC Claude Chat, die einen Austausch des Aurora-Clusters umfasst. Das folgende Verfahren gewährleistet einen reibungslosen Übergang bei minimaler Ausfallzeit und Datenverlust.
 
 ## Überblick
 

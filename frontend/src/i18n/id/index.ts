@@ -6,8 +6,8 @@ const translation = {
       },
     },
     app: {
-      name: 'Bedrock Claude Chat',
-      nameWithoutClaude: 'Bedrock Chat',
+      name: 'EMC Claude Chat',
+      nameWithoutClaude: 'EMC  Chat',
       inputMessage: 'Bisakah Saya Membantu Anda?',
       starredBots: 'Bot Favorit',
       recentlyUsedBots: 'Bot yang Baru Digunakan',

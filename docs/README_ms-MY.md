@@ -1,4 +1,4 @@
-# Bedrock Claude Chat (Nova)
+# EMC Claude Chat (Nova)
 
 ![](https://img.shields.io/github/v/release/aws-samples/bedrock-claude-chat?style=flat-square)
 ![](https://img.shields.io/github/license/aws-samples/bedrock-claude-chat?style=flat-square)
@@ -69,7 +69,7 @@ Dengan menggunakan [fungsi Ejen](./AGENT_ms-MY.md), bot sembang anda boleh menge
 - Jalankan deployment melalui arahan berikut. Jika anda ingin menetapkan versi untuk deploy atau perlu menggunakan polisi keselamatan, sila tentukan parameter yang sesuai dari [Parameter Pilihan](#parameter-pilihan).
 
 ```sh
-git clone https://github.com/aws-samples/bedrock-claude-chat.git
+git clone https://github.com/kkpkishan/bedrock-claude-chat.git
 cd bedrock-claude-chat
 chmod +x bin.sh
 ./bin.sh
@@ -88,8 +88,8 @@ Anda boleh menetapkan parameter berikut semasa deployment untuk meningkatkan kes
 - **--disable-ipv6**: Matikan sambungan melalui IPv6. (lalai: didayakan)
 - **--allowed-signup-email-domains**: Senarai domain e-mel yang dibenarkan untuk pendaftaran, dipisahkan dengan koma. (lalai: tiada sekatan domain)
 - **--bedrock-region**: Tentukan kawasan di mana bedrock tersedia. (lalai: us-east-1)
-- **--repo-url**: Repo Bedrock Claude Chat yang disesuaikan untuk deploy, jika fork atau kawalan sumber yang disesuaikan. (lalai: https://github.com/aws-samples/bedrock-claude-chat.git)
-- **--version**: Versi Bedrock Claude Chat untuk deploy. (lalai: versi terkini dalam pembangunan)
+- **--repo-url**: Repo EMC Claude Chat yang disesuaikan untuk deploy, jika fork atau kawalan sumber yang disesuaikan. (lalai: https://github.com/kkpkishan/bedrock-claude-chat.git)
+- **--version**: Versi EMC Claude Chat untuk deploy. (lalai: versi terkini dalam pembangunan)
 - **--cdk-json-override**: Anda boleh mengatasi mana-mana nilai konteks CDK semasa deployment menggunakan blok JSON override. Ini membolehkan anda mengubah konfigurasi tanpa mengedit fail cdk.json secara langsung.
 
 Contoh penggunaan:
@@ -140,7 +140,7 @@ Skrin pendaftaran akan muncul seperti yang ditunjukkan di atas, di mana anda bol
 > Tanpa menetapkan parameter pilihan, kaedah deployment ini membenarkan sesiapa yang mengetahui URL untuk mendaftar. Untuk kegunaan pengeluaran, sangat disyorkan untuk menambahkan sekatan alamat IP dan melumpuhkan pendaftaran sendiri untuk mengurangkan risiko keselamatan (anda boleh menentukan domain e-mel yang dibenarkan untuk mendaftar supaya hanya alamat e-mel dari domain syarikat anda dapat mendaftar). Gunakan kedua-dua ipv4-ranges dan ipv6-ranges untuk sekatan alamat IP, dan lumpuhkan pendaftaran sendiri dengan menggunakan disable-self-register semasa melaksanakan ./bin.
 
 > [!PETUA]
-> Jika `Frontend URL` tidak muncul atau Bedrock Claude Chat tidak berfungsi dengan baik, ia mungkin masalah dengan versi terkini. Dalam kes ini, sila tambahkan `--version "v1.2.6"` pada parameter dan cuba deployment semula.
+> Jika `Frontend URL` tidak muncul atau EMC Claude Chat tidak berfungsi dengan baik, ia mungkin masalah dengan versi terkini. Dalam kes ini, sila tambahkan `--version "v1.2.6"` pada parameter dan cuba deployment semula.
 
 ## Senibina
 
@@ -365,7 +365,7 @@ Sila lihat juga garis panduan berikut sebelum menyumbang:
 
 ## Penyumbang
 
-[![penyumbang bedrock claude chat](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
+[![penyumbang EMC Claude Chat](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
 
 ## Lesen
 

@@ -4,7 +4,7 @@ Les fonctionnalités d'administrateur sont un outil essentiel car elles fourniss
 
 ## Boucle de rétroaction
 
-La sortie du LLM peut ne pas toujours répondre aux attentes de l'utilisateur. Parfois, il ne parvient pas à satisfaire ses besoins. Pour intégrer efficacement les LLM dans les opérations commerciales et la vie quotidienne, la mise en place d'une boucle de rétroaction est essentielle. Bedrock Claude Chat est doté d'une fonctionnalité de retour qui permet aux utilisateurs d'analyser les raisons de l'insatisfaction. Sur la base des résultats de l'analyse, les utilisateurs peuvent ajuster les invites, les sources de données RAG et les paramètres en conséquence.
+La sortie du LLM peut ne pas toujours répondre aux attentes de l'utilisateur. Parfois, il ne parvient pas à satisfaire ses besoins. Pour intégrer efficacement les LLM dans les opérations commerciales et la vie quotidienne, la mise en place d'une boucle de rétroaction est essentielle. EMC Claude Chat est doté d'une fonctionnalité de retour qui permet aux utilisateurs d'analyser les raisons de l'insatisfaction. Sur la base des résultats de l'analyse, les utilisateurs peuvent ajuster les invites, les sources de données RAG et les paramètres en conséquence.
 
 ![](./imgs/feedback_loop.png)
 

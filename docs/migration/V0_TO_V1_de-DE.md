@@ -1,6 +1,6 @@
 # Migrationsanleitung (v0 zu v1)
 
-Wenn Sie Bedrock Claude Chat bereits mit einer früheren Version (~`0.4.x`) verwenden, müssen Sie die folgenden Schritte zur Migration befolgen.
+Wenn Sie EMC Claude Chat bereits mit einer früheren Version (~`0.4.x`) verwenden, müssen Sie die folgenden Schritte zur Migration befolgen.
 
 ## Warum muss ich das machen?
 

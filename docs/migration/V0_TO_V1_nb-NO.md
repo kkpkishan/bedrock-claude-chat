@@ -1,6 +1,6 @@
 # Migrasjonsguide (v0 til v1)
 
-Hvis du allerede bruker Bedrock Claude Chat med en tidligere versjon (~`0.4.x`), må du følge trinnene nedenfor for å migrere.
+Hvis du allerede bruker EMC Claude Chat med en tidligere versjon (~`0.4.x`), må du følge trinnene nedenfor for å migrere.
 
 ## Hvorfor må jeg gjøre dette?
 

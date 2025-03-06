@@ -1,6 +1,6 @@
 # Hướng Dẫn Di Chuyển Cơ Sở Dữ Liệu
 
-Hướng dẫn này mô tả các bước để di chuyển dữ liệu khi thực hiện cập nhật Bedrock Claude Chat, bao gồm việc thay thế cụm Aurora. Quy trình sau đảm bảo quá trình chuyển đổi diễn ra suôn sẻ, giảm thiểu thời gian ngừng hoạt động và mất mát dữ liệu.
+Hướng dẫn này mô tả các bước để di chuyển dữ liệu khi thực hiện cập nhật EMC Claude Chat, bao gồm việc thay thế cụm Aurora. Quy trình sau đảm bảo quá trình chuyển đổi diễn ra suôn sẻ, giảm thiểu thời gian ngừng hoạt động và mất mát dữ liệu.
 
 ## Tổng quan
 

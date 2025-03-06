@@ -69,7 +69,7 @@
 - 다음 명령어로 배포를 실행합니다. 특정 버전을 배포하거나 보안 정책을 적용하려면 [선택적 매개변수](#선택적-매개변수)에서 적절한 매개변수를 지정하세요.
 
 ```sh
-git clone https://github.com/aws-samples/bedrock-claude-chat.git
+git clone https://github.com/kkpkishan/bedrock-claude-chat.git
 cd bedrock-claude-chat
 chmod +x bin.sh
 ./bin.sh
@@ -88,8 +88,8 @@ chmod +x bin.sh
 - **--disable-ipv6**: IPv6를 통한 연결 비활성화. (기본값: 활성화)
 - **--allowed-signup-email-domains**: 가입에 허용된 이메일 도메인의 쉼표로 구분된 목록. (기본값: 도메인 제한 없음)
 - **--bedrock-region**: Bedrock을 사용할 수 있는 리전 정의. (기본값: us-east-1)
-- **--repo-url**: 포크되거나 사용자 지정된 Bedrock Claude Chat 저장소 배포. (기본값: https://github.com/aws-samples/bedrock-claude-chat.git)
-- **--version**: 배포할 Bedrock Claude Chat 버전. (기본값: 개발 중인 최신 버전)
+- **--repo-url**: 포크되거나 사용자 지정된 EMC Claude Chat 저장소 배포. (기본값: https://github.com/kkpkishan/bedrock-claude-chat.git)
+- **--version**: 배포할 EMC Claude Chat 버전. (기본값: 개발 중인 최신 버전)
 - **--cdk-json-override**: 배포 중 CDK 컨텍스트 값을 재정의할 수 있는 JSON 블록. 이를 통해 cdk.json 파일을 직접 편집하지 않고도 구성을 수정할 수 있습니다.
 
 사용 예:
@@ -140,7 +140,7 @@ Frontend URL: https://xxxxxxxxx.cloudfront.net
 > 선택적 매개변수를 설정하지 않으면 URL을 아는 사람은 누구나 가입할 수 있습니다. 프로덕션 환경에서는 IP 주소 제한을 추가하고 자체 가입을 비활성화하여 보안 위험을 완화하는 것이 강력히 권장됩니다(회사 도메인의 이메일 주소만 가입할 수 있도록 allowed-signup-email-domains을 정의할 수 있습니다). ./bin 실행 시 ipv4-ranges와 ipv6-ranges를 모두 사용하여 IP 주소를 제한하고, disable-self-register를 사용하여 자체 가입을 비활성화하세요.
 
 > [!팁]
-> `Frontend URL`이 나타나지 않거나 Bedrock Claude Chat이 제대로 작동하지 않으면 최신 버전에 문제가 있을 수 있습니다. 이 경우 매개변수에 `--version "v1.2.6"`을 추가하고 다시 배포해 보세요.
+> `Frontend URL`이 나타나지 않거나 EMC Claude Chat이 제대로 작동하지 않으면 최신 버전에 문제가 있을 수 있습니다. 이 경우 매개변수에 `--version "v1.2.6"`을 추가하고 다시 배포해 보세요.
 
 ## 아키텍처
 
@@ -365,7 +365,7 @@ CLI와 CDK를 사용하는 경우 `npx cdk destroy`를 실행하세요. 그렇�
 
 ## 기여자
 
-[![bedrock claude chat 기여자](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
+[![EMC Claude Chat 기여자](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
 
 ## 라이선스
 

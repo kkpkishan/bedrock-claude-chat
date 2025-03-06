@@ -4,7 +4,7 @@ Các tính năng dành cho quản trị viên là một công cụ quan trọng 
 
 ## Vòng phản hồi
 
-Đầu ra từ LLM không phải lúc nào cũng đáp ứng được kỳ vọng của người dùng. Đôi khi nó không thể thỏa mãn nhu cầu của người dùng. Để hiệu quả "tích hợp" LLM vào hoạt động kinh doanh và cuộc sống hàng ngày, việc triển khai vòng phản hồi là rất quan trọng. Bedrock Claude Chat được trang bị tính năng phản hồi được thiết kế để giúp người dùng phân tích lý do tại sao sự không hài lòng xảy ra. Dựa trên kết quả phân tích, người dùng có thể điều chỉnh các lời nhắc, nguồn dữ liệu RAG và các tham số một cách phù hợp.
+Đầu ra từ LLM không phải lúc nào cũng đáp ứng được kỳ vọng của người dùng. Đôi khi nó không thể thỏa mãn nhu cầu của người dùng. Để hiệu quả "tích hợp" LLM vào hoạt động kinh doanh và cuộc sống hàng ngày, việc triển khai vòng phản hồi là rất quan trọng. EMC Claude Chat được trang bị tính năng phản hồi được thiết kế để giúp người dùng phân tích lý do tại sao sự không hài lòng xảy ra. Dựa trên kết quả phân tích, người dùng có thể điều chỉnh các lời nhắc, nguồn dữ liệu RAG và các tham số một cách phù hợp.
 
 ![](./imgs/feedback_loop.png)
 

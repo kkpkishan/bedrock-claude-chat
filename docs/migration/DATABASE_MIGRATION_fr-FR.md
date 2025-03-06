@@ -1,6 +1,6 @@
 # Guide de Migration de Base de Données
 
-Ce guide décrit les étapes de migration des données lors de la mise à jour de Bedrock Claude Chat qui implique le remplacement d'un cluster Aurora. La procédure suivante garantit une transition en douceur tout en minimisant les temps d'arrêt et les pertes de données.
+Ce guide décrit les étapes de migration des données lors de la mise à jour de EMC Claude Chat qui implique le remplacement d'un cluster Aurora. La procédure suivante garantit une transition en douceur tout en minimisant les temps d'arrêt et les pertes de données.
 
 ## Aperçu
 

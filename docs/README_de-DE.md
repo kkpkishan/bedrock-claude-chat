@@ -1,4 +1,4 @@
-# Bedrock Claude Chat (Nova)
+# EMC Claude Chat (Nova)
 
 ![](https://img.shields.io/github/v/release/aws-samples/bedrock-claude-chat?style=flat-square)
 ![](https://img.shields.io/github/license/aws-samples/bedrock-claude-chat?style=flat-square)
@@ -69,7 +69,7 @@ Durch die Verwendung der [Agent-Funktionalität](./AGENT_de-DE.md) kann Ihr Chat
 - Führen Sie die Bereitstellung über folgende Befehle durch. Wenn Sie eine bestimmte Version bereitstellen oder Sicherheitsrichtlinien anwenden möchten, geben Sie bitte die entsprechenden Parameter aus [Optionale Parameter](#optionale-parameter) an.
 
 ```sh
-git clone https://github.com/aws-samples/bedrock-claude-chat.git
+git clone https://github.com/kkpkishan/bedrock-claude-chat.git
 cd bedrock-claude-chat
 chmod +x bin.sh
 ./bin.sh
@@ -88,8 +88,8 @@ Sie können die folgenden Parameter während der Bereitstellung angeben, um Sich
 - **--disable-ipv6**: Verbindungen über IPv6 deaktivieren. (Standard: aktiviert)
 - **--allowed-signup-email-domains**: Kommagetrennte Liste der erlaubten E-Mail-Domains für die Registrierung. (Standard: keine Domaineinschränkung)
 - **--bedrock-region**: Die Region definieren, in der Bedrock verfügbar ist. (Standard: us-east-1)
-- **--repo-url**: Die benutzerdefinierte Repository-URL von Bedrock Claude Chat für die Bereitstellung, falls geforkt oder benutzerdefinierte Quellcodeverwaltung. (Standard: https://github.com/aws-samples/bedrock-claude-chat.git)
-- **--version**: Die Version von Bedrock Claude Chat, die bereitgestellt werden soll. (Standard: neueste Version in Entwicklung)
+- **--repo-url**: Die benutzerdefinierte Repository-URL von EMC Claude Chat für die Bereitstellung, falls geforkt oder benutzerdefinierte Quellcodeverwaltung. (Standard: https://github.com/kkpkishan/bedrock-claude-chat.git)
+- **--version**: Die Version von EMC Claude Chat, die bereitgestellt werden soll. (Standard: neueste Version in Entwicklung)
 - **--cdk-json-override**: Sie können beliebige CDK-Kontextwerte während der Bereitstellung mithilfe des Override-JSON-Blocks überschreiben. Dies ermöglicht es Ihnen, die Konfiguration zu ändern, ohne die cdk.json-Datei direkt zu bearbeiten.
 
 Beispielverwendung:
@@ -140,7 +140,7 @@ Der Anmeldebildschirm erscheint wie oben gezeigt, wo Sie sich mit Ihrer E-Mail r
 > Ohne Festlegen des optionalen Parameters erlaubt diese Bereitstellungsmethode jedem, der die URL kennt, sich anzumelden. Für den Produktiveinsatz wird dringend empfohlen, IP-Adresseinschränkungen hinzuzufügen und die Selbstregistrierung zu deaktivieren, um Sicherheitsrisiken zu minimieren (Sie können allowed-signup-email-domains definieren, um Benutzer einzuschränken, sodass nur E-Mail-Adressen aus der Domäne Ihres Unternehmens sich registrieren können). Verwenden Sie sowohl ipv4-ranges als auch ipv6-ranges für IP-Adresseinschränkungen und deaktivieren Sie die Selbstregistrierung durch Verwendung von disable-self-register bei der Ausführung von ./bin.
 
 > [!TIPP]
-> Wenn die `Frontend-URL` nicht erscheint oder Bedrock Claude Chat nicht richtig funktioniert, kann dies ein Problem mit der neuesten Version sein. Fügen Sie in diesem Fall `--version "v1.2.6"` zu den Parametern hinzu und versuchen Sie die Bereitstellung erneut.
+> Wenn die `Frontend-URL` nicht erscheint oder EMC Claude Chat nicht richtig funktioniert, kann dies ein Problem mit der neuesten Version sein. Fügen Sie in diesem Fall `--version "v1.2.6"` zu den Parametern hinzu und versuchen Sie die Bereitstellung erneut.
 
 ## Architektur
 
@@ -300,7 +300,7 @@ Standardmäßig werden neu erstellte Benutzer der Gruppe `CreatingBotAllowed` hi
 
 ## Mitwirkende
 
-[![bedrock claude chat contributors](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
+[![EMC Claude Chat contributors](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
 
 ## Lizenz
 

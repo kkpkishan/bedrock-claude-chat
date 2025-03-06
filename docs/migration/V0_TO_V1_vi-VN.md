@@ -1,6 +1,6 @@
 # Hướng Dẫn Di Chuyển (từ phiên bản v0 đến v1)
 
-Nếu bạn đang sử dụng Bedrock Claude Chat từ phiên bản trước đó (~`0.4.x`), bạn cần thực hiện các bước dưới đây để di chuyển.
+Nếu bạn đang sử dụng EMC Claude Chat từ phiên bản trước đó (~`0.4.x`), bạn cần thực hiện các bước dưới đây để di chuyển.
 
 ## Tại sao tôi cần phải làm điều này?
 

@@ -69,7 +69,7 @@
 - 執行以下命令進行部署。如果您想要指定部署的版本或需要套用安全性策略，請從[可選參數](#可選參數)中指定適當的參數。
 
 ```sh
-git clone https://github.com/aws-samples/bedrock-claude-chat.git
+git clone https://github.com/kkpkishan/bedrock-claude-chat.git
 cd bedrock-claude-chat
 chmod +x bin.sh
 ./bin.sh
@@ -88,8 +88,8 @@ chmod +x bin.sh
 - **--disable-ipv6**：禁用 IPv6 連線。（預設：啟用）
 - **--allowed-signup-email-domains**：允許註冊的電子郵件網域的逗號分隔清單。（預設：無網域限制）
 - **--bedrock-region**：定義 Bedrock 可用的區域。（預設：us-east-1）
-- **--repo-url**：要部署的 Bedrock Claude Chat 自訂倉庫，如果已分支或使用自訂原始碼控制。（預設：https://github.com/aws-samples/bedrock-claude-chat.git）
-- **--version**：要部署的 Bedrock Claude Chat 版本。（預設：開發中的最新版本）
+- **--repo-url**：要部署的 EMC Claude Chat 自訂倉庫，如果已分支或使用自訂原始碼控制。（預設：https://github.com/kkpkishan/bedrock-claude-chat.git）
+- **--version**：要部署的 EMC Claude Chat 版本。（預設：開發中的最新版本）
 - **--cdk-json-override**：您可以使用覆寫 JSON 區塊在部署期間覆寫任何 CDK 上下文值。這允許您在不直接編輯 cdk.json 檔案的情況下修改配置。
 
 使用範例：
@@ -140,7 +140,7 @@ chmod +x bin.sh
 > 如果不設置可選參數，此部署方法允許任何知道 URL 的人註冊。對於生產使用，強烈建議添加 IP 地址限制並禁用自我註冊，以減輕安全風險（您可以定義 allowed-signup-email-domains 以限制使用者，使僅來自您公司網域的電子郵件地址可以註冊）。在執行 ./bin 時，同時使用 ipv4-ranges 和 ipv6-ranges 進行 IP 地址限制，並通過使用 disable-self-register 禁用自我註冊。
 
 > [!提示]
-> 如果 `前端 URL` 未出現或 Bedrock Claude Chat 無法正常工作，可能是最新版本的問題。在這種情況下，請在參數中添加 `--version "v1.2.6"` 並重試部署。
+> 如果 `前端 URL` 未出現或 EMC Claude Chat 無法正常工作，可能是最新版本的問題。在這種情況下，請在參數中添加 `--version "v1.2.6"` 並重試部署。
 
 ## 架構
 
@@ -365,7 +365,7 @@ DEFAULT_GENERATION_CONFIG = {
 
 ## 貢獻者
 
-[![bedrock claude chat 貢獻者](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
+[![EMC Claude Chat 貢獻者](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
 
 ## 授權
 

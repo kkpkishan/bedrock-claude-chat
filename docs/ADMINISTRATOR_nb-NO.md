@@ -4,7 +4,7 @@ Administratorfunksjonene er et avgjørende verktøy som gir vesentlige innsikter
 
 ## Tilbakemeldingssløyfe
 
-Utdata fra LLM oppfyller ikke alltid brukerens forventninger. Noen ganger klarer den ikke å tilfredsstille brukerens behov. For effektivt å "integrere" LLM-er i forretningsdrift og dagligliv, er det avgjørende å implementere en tilbakemeldingssløyfe. Bedrock Claude Chat er utstyrt med en tilbakemeldingsfunksjon som er designet for å gjøre det mulig for brukere å analysere hvorfor misnøye oppstod. Basert på analyseresultatene kan brukere justere promptene, RAG-datakildene og parameterne deretter.
+Utdata fra LLM oppfyller ikke alltid brukerens forventninger. Noen ganger klarer den ikke å tilfredsstille brukerens behov. For effektivt å "integrere" LLM-er i forretningsdrift og dagligliv, er det avgjørende å implementere en tilbakemeldingssløyfe. EMC Claude Chat er utstyrt med en tilbakemeldingsfunksjon som er designet for å gjøre det mulig for brukere å analysere hvorfor misnøye oppstod. Basert på analyseresultatene kan brukere justere promptene, RAG-datakildene og parameterne deretter.
 
 ![](./imgs/feedback_loop.png)
 

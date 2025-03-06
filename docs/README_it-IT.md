@@ -69,7 +69,7 @@ Utilizzando la [funzionalità Agente](./AGENT_it-IT.md), il tuo chatbot può ges
 - Eseguire la distribuzione tramite i seguenti comandi. Se si desidera specificare la versione da distribuire o applicare criteri di sicurezza, specificare i parametri appropriati da [Parametri Facoltativi](#parametri-facoltativi).
 
 ```sh
-git clone https://github.com/aws-samples/bedrock-claude-chat.git
+git clone https://github.com/kkpkishan/bedrock-claude-chat.git
 cd bedrock-claude-chat
 chmod +x bin.sh
 ./bin.sh
@@ -88,8 +88,8 @@ chmod +x bin.sh
 - **--disable-ipv6**: Disabilita le connessioni su IPv6. (predefinito: abilitato)
 - **--allowed-signup-email-domains**: Elenco separato da virgole di domini di posta elettronica consentiti per la registrazione. (predefinito: nessuna restrizione di dominio)
 - **--bedrock-region**: Definisce la regione in cui Bedrock è disponibile. (predefinito: us-east-1)
-- **--repo-url**: L'URL del repository personalizzato di Bedrock Claude Chat da distribuire, se biforcato o con un controllo del codice sorgente personalizzato. (predefinito: https://github.com/aws-samples/bedrock-claude-chat.git)
-- **--version**: La versione di Bedrock Claude Chat da distribuire. (predefinito: ultima versione in sviluppo)
+- **--repo-url**: L'URL del repository personalizzato di EMC Claude Chat da distribuire, se biforcato o con un controllo del codice sorgente personalizzato. (predefinito: https://github.com/kkpkishan/bedrock-claude-chat.git)
+- **--version**: La versione di EMC Claude Chat da distribuire. (predefinito: ultima versione in sviluppo)
 - **--cdk-json-override**: È possibile sovrascrivere qualsiasi valore di contesto CDK durante la distribuzione utilizzando il blocco JSON di override. Questo consente di modificare la configurazione senza modificare direttamente il file cdk.json.
 
 Esempio di utilizzo:
@@ -140,7 +140,7 @@ Verrà visualizzata la schermata di registrazione come mostrato sopra, dove è p
 > Senza impostare il parametro facoltativo, questo metodo di distribuzione consente a chiunque conosca l'URL di registrarsi. Per l'uso in produzione, è fortemente consigliato aggiungere restrizioni degli indirizzi IP e disabilitare la registrazione automatica per mitigare i rischi di sicurezza (è possibile definire allowed-signup-email-domains per limitare gli utenti in modo che solo gli indirizzi email del dominio della propria azienda possano registrarsi). Utilizzare sia ipv4-ranges che ipv6-ranges per le restrizioni degli indirizzi IP e disabilitare la registrazione automatica utilizzando disable-self-register durante l'esecuzione di ./bin.
 
 > [!SUGGERIMENTO]
-> Se l'`URL Frontend` non appare o Bedrock Claude Chat non funziona correttamente, potrebbe esserci un problema con l'ultima versione. In questo caso, aggiungere `--version "v1.2.6"` ai parametri e riprovare la distribuzione.
+> Se l'`URL Frontend` non appare o EMC Claude Chat non funziona correttamente, potrebbe esserci un problema con l'ultima versione. In questo caso, aggiungere `--version "v1.2.6"` ai parametri e riprovare la distribuzione.
 
 ## Architettura
 
@@ -365,7 +365,7 @@ Dai un'occhiata anche alle seguenti linee guida prima di contribuire:
 
 ## Contributori
 
-[![contributori di bedrock claude chat](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
+[![contributori di EMC Claude Chat](https://contrib.rocks/image?repo=aws-samples/bedrock-claude-chat&max=1000)](https://github.com/aws-samples/bedrock-claude-chat/graphs/contributors)
 
 ## Licenza
 

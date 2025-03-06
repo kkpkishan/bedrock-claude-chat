@@ -4,7 +4,7 @@ Die Administrator-Funktionen sind ein entscheidendes Werkzeug, da sie wichtige E
 
 ## Feedback-Schleife
 
-Die Ausgabe des LLM entspricht möglicherweise nicht immer den Erwartungen des Benutzers. Manchmal erfüllt sie die Bedürfnisse des Benutzers nicht. Um LLMs effektiv in Geschäftsprozesse und den Alltag zu "integrieren", ist die Implementierung einer Feedback-Schleife unerlässlich. Bedrock Claude Chat ist mit einer Feedbackfunktion ausgestattet, die es Benutzern ermöglicht, zu analysieren, warum Unzufriedenheit aufgetreten ist. Basierend auf den Analyseergebnissen können Benutzer die Prompts, RAG-Datenquellen und Parameter entsprechend anpassen.
+Die Ausgabe des LLM entspricht möglicherweise nicht immer den Erwartungen des Benutzers. Manchmal erfüllt sie die Bedürfnisse des Benutzers nicht. Um LLMs effektiv in Geschäftsprozesse und den Alltag zu "integrieren", ist die Implementierung einer Feedback-Schleife unerlässlich. EMC Claude Chat ist mit einer Feedbackfunktion ausgestattet, die es Benutzern ermöglicht, zu analysieren, warum Unzufriedenheit aufgetreten ist. Basierend auf den Analyseergebnissen können Benutzer die Prompts, RAG-Datenquellen und Parameter entsprechend anpassen.
 
 ![](./imgs/feedback_loop.png)
 

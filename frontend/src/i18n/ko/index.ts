@@ -4,8 +4,8 @@
 const translation = {
   translation: {
     app: {
-      name: 'Bedrock Claude Chat',
-      nameWithoutClaude: 'Bedrock Chat',
+      name: 'EMC Claude Chat',
+      nameWithoutClaude: 'EMC  Chat',
       inputMessage: '입력해 주십시오',
     },
     deleteDialog: {
