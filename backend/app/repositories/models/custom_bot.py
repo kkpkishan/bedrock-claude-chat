@@ -348,6 +348,7 @@ class BotMeta(BaseModel):
     available: bool
     sync_status: type_sync_status
     has_bedrock_knowledge_base: bool
+    has_knowledge: bool
 
 
 class BotMetaWithStackInfo(BotMeta):
